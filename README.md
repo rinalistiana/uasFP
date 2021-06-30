@@ -1,5 +1,5 @@
 ### [Aplikasi Perekaman Data HP](http://app-perekaman-hp.herokuapp.com/login) klik
-### [laporan](https://drive.google.com/file/d/1DsYMeY8FXMdUVxyXjaFOSRkWBNsQ4oB5/view?usp=sharing) klik
+### [Desain UML dan Penjelasan](https://drive.google.com/file/d/17OEbIU9yMu0vhTgVxfnyrihdOMN-2e-0/view?usp=sharing) klik
 #### By
 - Nama  : Rina Listiana
 - NIM   : 18090090
