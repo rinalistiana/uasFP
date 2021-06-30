@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateBukusTable extends Migration
+class CreatehpTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class CreateBukusTable extends Migration
      */
     public function up()
     {
-        Schema::create('bukus', function (Blueprint $table) {
+        Schema::create('hp', function (Blueprint $table) {
             $table->id();
-            $table->string('no_surat');
-            $table->string('tanggal_surat');
-            $table->string('judul_surat');
+            $table->string('merk');
+            $table->string('tipe');
+            $table->string('tahun');
             $table->string('gambar');
             $table->string('public_id');
             $table->timestamps();
@@ -31,6 +31,6 @@ class CreateBukusTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('bukus');
+        Schema::dropIfExists('hp');
     }
 }
