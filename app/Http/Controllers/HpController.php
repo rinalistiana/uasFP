@@ -80,9 +80,9 @@ class HpController extends Controller
         }
 
         $hp -> update([
-            'no_surat' => $request -> no_surat,
-            'tanggal_surat' => $request -> tanggal_surat,
-            'judul_surat' =>$request -> judul_surat,
+            'merk' => $request -> merk,
+            'tipe' => $request -> tipe,
+            'tahun' =>$request -> tahun,
             'gambar' =>$request -> gambar ? $gambar :$hp->gambar,
             'public_id' => $request -> gambar ? $public_id : $hp->public_id
 
